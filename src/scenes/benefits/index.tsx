@@ -10,7 +10,7 @@ import Benefit from "./Benefit";
 import BenefitPageGraphic from "@/assets/BenefitsPageGraphic.png";
 import ActionButton from "@/shared/ActionButton";
 
-const benefits: Array<{ benefit: BenefitType }> = [
+const benefits: Array<BenefitType> = [
   {
     icon: <HomeModernIcon className="h-6 w-6" />,
     title: "State of the Art Facilities",
@@ -124,7 +124,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, amount: 0.5 }}
-              transition={{delay:0.2, duration: 1 }}
+              transition={{ delay: 0.2, duration: 1 }}
               variants={{
                 hidden: { opacity: 0, x: 50 },
                 visible: { opacity: 1, x: 0 },
