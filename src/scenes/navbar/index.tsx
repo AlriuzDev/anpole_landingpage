@@ -77,7 +77,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
           {/* CLOSE ICON */}
           <figure className="flex justify-end p-12">
             <button onClick={() => setIsMenuToggled(!isMenuToggled)}>
-              <XMarkIcon className="h-6 w-6 text-gray-500" />
+              <XMarkIcon className="h-6 w-6 text-gray-500 hover:transition ease-in-out hover:rotate-[25deg]" />
             </button>
           </figure>
           {/* MENU ITEMS */}
