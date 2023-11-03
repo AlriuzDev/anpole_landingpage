@@ -1,6 +1,6 @@
 import Logo from "@/assets/Logo.png";
 
-type Props = {};
+// type Props = {};
 
 const Footer = () => {
   return (
